@@ -37,21 +37,20 @@ header {
 
 .link::after, .link::before {
     height: 0.1em;
+    width: 0;
     background-color: black;
     content: '';
     display: block;
     position: absolute;
     transition: all 0.5s ease-in;
 }
-.link::after {
-    width: 0;
-    top: 80%;
-    left: 10%;
-}
 .link::before {
-    width: 0;
-    bottom: 80%;
+    top: 20%;
     right: 10%;
+}
+.link::after {
+    bottom: 20%;
+    left: 10%;
 }
 
 .link:hover {
