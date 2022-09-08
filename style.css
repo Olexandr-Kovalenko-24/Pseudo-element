@@ -1,0 +1,20 @@
+p::first-letter {
+    font-size: 32px;
+}
+p::first-line {
+    background-color: red;
+}
+p {
+    font-size: 16px;
+}
+li::before {
+    content: "";
+    background-image: url('./images/alien.png');
+    display: inline-block;
+    background-size: contain;
+    width: 12px;
+    height: 12px;
+}
+li {
+    list-style: none;
+}
